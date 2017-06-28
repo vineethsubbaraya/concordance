@@ -81,7 +81,7 @@ public class ConcordBuilder {
 		ConcordBuilder cb = new ConcordBuilder();
 		try {
 			// Read file from a given path using BufferedReader
-			File file = new File("C://Users/Vineeth/Desktop/input.txt");
+			File file = new File("YourFilename.txt");
 			BufferedReader br = new BufferedReader(new FileReader(file));
 			TreeMap<String, WordData> concordance = cb.parser(br);
 			cb.printMap(concordance);
